@@ -114,7 +114,7 @@ All operations follow RESTful conventions using proper HTTP methods.
 
 ---
 
-## 👨‍💻 Author - **[Sumit Sharma](www.linkedin.com/in/sumit-sharma-7a435324b)**
+## 👨‍💻 Author - **[Sumit Sharma](https://www.linkedin.com/in/sumit-sharma-7a435324b/)**
 
 The next update will focus on some minor UI changes!
 
