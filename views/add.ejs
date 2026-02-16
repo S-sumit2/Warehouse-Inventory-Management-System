@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Add Item</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-dark bg-dark px-4">
+  <a class="navbar-brand" href="/">Warehouse Inventory</a>
+
+  </div>
+</nav>
+
+<main class="flex-fill">
+
+<div class="container my-5 col-6 bg-light p-4 rounded shadow">
+  <h3 class="text-center mb-4">Add Warehouse Item</h3>
+
+  <form action="/add" method="post">
+
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" name="itemName" required>
+      <label>Item Name</label>
+    </div>
+
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" name="itemImage" required>
+      <label>Image URL</label>
+    </div>
+
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" name="sku" required>
+      <label>SKU Code</label>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Category</label>
+      <select class="form-select" name="category">
+        <option value="Raw">Raw</option>
+        <option value="Finished">Finished</option>
+        <option value="Electronics">Electronics</option>
+        <option value="Food">Food</option>
+      </select>
+    </div>
+
+    <div class="form-floating mb-3">
+      <input type="number" class="form-control" name="quantity" required>
+      <label>Quantity</label>
+    </div>
+
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" name="location" required>
+      <label>Warehouse Location</label>
+    </div>
+
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" name="supplier" required>
+      <label>Supplier Name</label>
+    </div>
+
+    <div class="text-center">
+      <button class="btn btn-success px-4">Add Item</button>
+    </div>
+
+  </form>
+</div>
+</main>
+<footer class="bg-dark text-light text-center py-3 mt-auto">
+  <div class="container">
+    <p class="mb-1 fw-semibold">
+      Warehouse Inventory Management System
+    </p>
+    <small class="text-secondary">
+      © 2026 | Developed by <a
+            href="https://www.linkedin.com/in/sumit-sharma-7a435324b/"
+            class="text-primary text-decoration-none"
+          >Sumit Sharma</a>
+    </small>
+  </div>
+</footer>
+
+</body>
+</html>
